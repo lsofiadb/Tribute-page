@@ -6,19 +6,26 @@
 
 html {
   font-size: 62.5%;
+  background-color:  #f8f6f6;
 }
 
 main {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 
 .header h1 {
-  width: 40%;
+  width: 340px;
   background-color: antiquewhite;
   margin: 0 auto;
   text-align: center;
   position: relative;
   top: 10px;
+  border-radius: 2px;
+  font-size: 3rem;
+}
+
+.main-photography {
+  background-color:  #ead7d756;
 }
 
 .main-photography figure {
@@ -27,12 +34,19 @@ main {
 }
 
 .main-photography img {
-  width: 350px;
+  width: 430px;
 }
 
 .main-photography p {
-  width: 50%;
+  width: 40%;
+  min-width: 430px;
   margin: 10px auto;
+  padding: 15px 0;
+  text-align: justify;
+}
+
+.main-photography figcaption {
+  font-size: 1.8rem;
 }
 
 .time-line {
@@ -42,24 +56,43 @@ main {
 .time-line h2 {
   text-align: center;
   margin: 20px;
+  font-size: 2.2rem;
 }
 
-.time-line-list{
-  width: 50%;
+.time-line-list {
+  width: 40%;
+  min-width: 430px;
   margin: 0 auto;
+  text-align: justify;
+  font-size: 2rem;
 }
 
 .famous-quotes {
-  width: 50%;
   margin: 20px auto;
+  padding: 5px;
+  background-color:  #d1dae031;
 }
 
-.famous-quotes h3{
-  font-size: 1.8rem;
+.famous-quotes h2 {
+  font-size: 2.2rem;
   text-align: center;
   margin: 20px auto;
 }
 
 .famous-quotes p {
-  font-size: 1.2rem;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 2.2rem;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer p > a {
+  text-decoration: none;
+  color: blue;
 }
