@@ -8,6 +8,10 @@ html {
   font-size: 62.5%;
 }
 
+main {
+  font-size: 1.5rem;
+}
+
 .header h1 {
   width: 40%;
   background-color: antiquewhite;
@@ -24,4 +28,38 @@ html {
 
 .main-photography img {
   width: 350px;
+}
+
+.main-photography p {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.time-line {
+  margin: 30px;
+}
+
+.time-line h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.time-line-list{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.famous-quotes {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.famous-quotes h3{
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.famous-quotes p {
+  font-size: 1.2rem;
 }
