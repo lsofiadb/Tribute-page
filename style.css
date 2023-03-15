@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header h1 {
+  width: 40%;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.main-photography figure {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-photography img {
+  width: 350px;
+}
